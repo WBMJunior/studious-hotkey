@@ -4,11 +4,11 @@ license="MIT"
 issueTrackerURL="https://github.com/WBMJunior/studious-hotkey/issues"
 [[mods]]
 modId="studioushotkey"
-version="1.0.0"
+version="1.0.1"
 displayName="Studious Hotkey"
 authors="WBMJunior"
 description='''
-Adds one keybind (default: H, in-game only) that opens Studious Keybinds' visual keyboard screen while playing.
+Adds one keybind (default: K, in-game only) that opens Studious Keybinds' visual keyboard screen while playing.
 Players can look up what a key does, or rebind it, without going through Options > Controls > Keyboard.
 Client-only; does nothing without Studious Keybinds.
 '''

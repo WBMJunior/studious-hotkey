@@ -1,11 +1,11 @@
 # Studious Hotkey
 
-A tiny NeoForge 1.21.1 client mod that adds **one keybind (default `H`, in-game only)** which opens
+A tiny NeoForge 1.21.1 client mod that adds **one keybind (default `K`, in-game only)** which opens
 [Studious Keybinds](https://www.curseforge.com/minecraft/mc-mods/studious-keybinds)' visual keyboard screen while you play.
 
 Studious Keybinds draws a full keyboard with every action on every key, colour-coded, searchable and editable, but you can
 only reach it through *Options > Controls > Keyboard*. In a large modpack that keyboard is the fastest answer to
-"what does this key do?", so it deserves a hotkey. Press `H`, hover a key to see its actions, click to rebind, `Esc` to go back.
+"what does this key do?", so it deserves a hotkey. Press `K`, hover a key to see its actions, click to rebind, `Esc` to go back.
 
 - Client-only. Requires Studious Keybinds (`studiouskeybinds`) 1.0.0 or newer; refuses to load without it.
 - No mixins. Registers a `KeyMapping` (`Studious Hotkey` category) and opens the screen by reflection, so this jar carries no

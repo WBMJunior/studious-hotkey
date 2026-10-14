@@ -32,12 +32,12 @@ public final class StudiousHotkey {
     private static final Logger LOGGER = LoggerFactory.getLogger(StudiousHotkey.class);
     private static final String KEYBOARD_SCREEN = "com.studiousgoose.keybinds.client.KeyboardScreen";
 
-    /** Default H: unused by vanilla, memorable ("help"/"hotkeys"), and in-game only so it never eats a typed H. */
+    /** Default K ("keys"), in-game only so it never eats a typed K; packs can override it through Default Options. */
     public static final KeyMapping OPEN_KEYBOARD = new KeyMapping(
             "key.studioushotkey.open",
             KeyConflictContext.IN_GAME,
             InputConstants.Type.KEYSYM,
-            GLFW.GLFW_KEY_H,
+            GLFW.GLFW_KEY_K,
             "key.categories.studioushotkey");
 
     public StudiousHotkey(IEventBus modBus) {
